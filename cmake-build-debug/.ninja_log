@@ -1,0 +1,5 @@
+# ninja log v5
+0	1486	1683098738188796564	CMakeFiles/Algorithms.dir/main.cpp.o	beae245d1305aac6
+1489	1610	1683098738323731750	Algorithms	64104dd551f11b24
+1437	1552	1683195739875571165	RomanToInteger	597e866221fe1a4
+3	1437	1683195739756348178	CMakeFiles/RomanToInteger.dir/13_Roman_to_integer/main.cpp.o	c40f1e6455faae30
