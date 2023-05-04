@@ -9,6 +9,6 @@
 namespace romanToInt {
     class Solution {
     public:
-        int romanToInt(const std::string &s);
+        int romanToInt(const std::string s);
     };
 }
