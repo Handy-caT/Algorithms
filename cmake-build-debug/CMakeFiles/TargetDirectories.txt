@@ -1,3 +1,4 @@
 /Users/maksim/Documents/C++/Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/maksim/Documents/C++/Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maksim/Documents/C++/Algorithms/cmake-build-debug/CMakeFiles/Functions.dir
 /Users/maksim/Documents/C++/Algorithms/cmake-build-debug/CMakeFiles/RomanToInteger.dir
