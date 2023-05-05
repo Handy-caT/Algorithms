@@ -3,8 +3,10 @@
 //
 #include "reverse_words.cpp"
 #include "find_next_square.cpp"
+#include "highest_scoring_word.cpp"
 
 int main() {
     custom_functions_tests::reverse_words_test();
     custom_functions_tests::find_next_square_test();
+    custom_functions_tests::highestScoringWord_test();
 }
