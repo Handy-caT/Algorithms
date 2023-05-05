@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.21)
-project(Algorithms)
+project(Algorithms LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RomanToInteger 13_Roman_to_integer/main.cpp)
-include_directories(13_Roman_to_integer)
+enable_testing()
 
-add_executable(Functions Functions/main.cpp)
-
+add_subdirectory(src)
+add_subdirectory(tests)
