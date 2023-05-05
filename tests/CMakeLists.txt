@@ -9,7 +9,9 @@ FetchContent_MakeAvailable(googletest)
 add_library(GTest::GTest INTERFACE IMPORTED)
 target_link_libraries(GTest::GTest INTERFACE gtest_main)
 
-add_executable(reverse_words_test reverse_words_tests.cpp)
+file(GLOB SOURCE_FILES *.cpp)
+
+add_executable(reverse_words_test ${SOURCE_FILES})
 
 target_link_libraries(reverse_words_test
         PRIVATE

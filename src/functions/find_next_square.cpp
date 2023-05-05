@@ -2,20 +2,20 @@
 // Created by Максим on 4.05.23.
 //
 #import <cmath>
-#include <iostream>
 #include <map>
+#include "find_next_square.h"
 
-namespace custom_functions {
-    long find_next_square(long sq) {
-        long root = (long) sqrt(sq);
 
-        if (root * root == sq) {
-            return (root + 1) * (root + 1);
-        } else {
-            return -1;
-        }
+long custom_functions::find_next_square(long sq) {
+    long root = (long) sqrt(sq);
+
+    if (root * root == sq) {
+        return (root + 1) * (root + 1);
+    } else {
+        return -1;
     }
 }
+
 
 namespace custom_functions_tests {
     void find_next_square_test() {
