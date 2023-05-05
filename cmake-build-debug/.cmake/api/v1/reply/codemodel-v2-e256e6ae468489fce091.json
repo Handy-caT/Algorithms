@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,12 +31,20 @@
 					"name" : "Algorithms",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Functions-Debug-1f2c9260c0d070eb1f2b.json",
+					"name" : "Functions",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "RomanToInteger::@6890427a1f51a3e7e1df",
