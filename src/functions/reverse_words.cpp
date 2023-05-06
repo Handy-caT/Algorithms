@@ -6,6 +6,12 @@
 #include "reverse_words.h"
 
 
+/**
+ *  Function that reverses words in the given string
+ *
+ * @param string str
+ * @return string
+ */
 std::string custom_functions::reverse_words(const std::string &str) {
     std::string result;
     std::string word;

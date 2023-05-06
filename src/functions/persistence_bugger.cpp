@@ -16,6 +16,15 @@ int multiply_digits(long long number) {
 }
 
 
+/**
+ * Function that takes positive number and
+ * returns its multiplicative persistence,
+ * which is the number of times you must multiply
+ * the digits in number until you reach a single digit.
+ *
+ * @param long long number
+ * @return int
+ */
 int custom_functions::persistence_bugger(long long number) {
     int count = 0;
 

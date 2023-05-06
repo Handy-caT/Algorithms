@@ -2,11 +2,16 @@
 // Created by Максим on 4.05.23.
 //
 #include <iostream>
-#include <map>
-
 #include "highest_scoring_word.h"
 
 
+/**
+ * Function that finds highest scoring word in a string.
+ * Score is sum of points that equals to letter position in the alphabet.
+ *
+ * @param string str
+ * @return string
+ */
 std::string custom_functions::highestScoringWord(const std::string &str) {
     std::string result;
     int max = 0;

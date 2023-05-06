@@ -2,10 +2,17 @@
 // Created by Максим on 4.05.23.
 //
 #import <cmath>
-#include <map>
 #include "find_next_square.h"
 
 
+/**
+ * Functions that finds next perfect square for the input square.
+ * If the input square isn't perfect, returns -1
+ *
+ *
+ * @param long sq - input square
+ * @return long
+ */
 long custom_functions::find_next_square(long sq) {
     long root = (long) sqrt(sq);
 
