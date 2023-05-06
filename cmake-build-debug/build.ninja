@@ -227,6 +227,13 @@ build src/functions/CMakeFiles/custom_functions.dir/highest_scoring_word.cpp.o: 
   OBJECT_DIR = src/functions/CMakeFiles/custom_functions.dir
   OBJECT_FILE_DIR = src/functions/CMakeFiles/custom_functions.dir
 
+build src/functions/CMakeFiles/custom_functions.dir/persistence_bugger.cpp.o: CXX_COMPILER__custom_functions_Debug /Users/maksim/Documents/C++/Algorithms/src/functions/persistence_bugger.cpp || cmake_object_order_depends_target_custom_functions
+  DEP_FILE = src/functions/CMakeFiles/custom_functions.dir/persistence_bugger.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/maksim/Documents/C++/Algorithms/src/functions/include
+  OBJECT_DIR = src/functions/CMakeFiles/custom_functions.dir
+  OBJECT_FILE_DIR = src/functions/CMakeFiles/custom_functions.dir
+
 build src/functions/CMakeFiles/custom_functions.dir/reverse_words.cpp.o: CXX_COMPILER__custom_functions_Debug /Users/maksim/Documents/C++/Algorithms/src/functions/reverse_words.cpp || cmake_object_order_depends_target_custom_functions
   DEP_FILE = src/functions/CMakeFiles/custom_functions.dir/reverse_words.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -fcolor-diagnostics -std=gnu++14
@@ -242,7 +249,7 @@ build src/functions/CMakeFiles/custom_functions.dir/reverse_words.cpp.o: CXX_COM
 #############################################
 # Link the static library src/functions/libcustom_functions.a
 
-build src/functions/libcustom_functions.a: CXX_STATIC_LIBRARY_LINKER__custom_functions_Debug src/functions/CMakeFiles/custom_functions.dir/find_next_square.cpp.o src/functions/CMakeFiles/custom_functions.dir/highest_scoring_word.cpp.o src/functions/CMakeFiles/custom_functions.dir/reverse_words.cpp.o
+build src/functions/libcustom_functions.a: CXX_STATIC_LIBRARY_LINKER__custom_functions_Debug src/functions/CMakeFiles/custom_functions.dir/find_next_square.cpp.o src/functions/CMakeFiles/custom_functions.dir/highest_scoring_word.cpp.o src/functions/CMakeFiles/custom_functions.dir/persistence_bugger.cpp.o src/functions/CMakeFiles/custom_functions.dir/reverse_words.cpp.o
   ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src/functions/CMakeFiles/custom_functions.dir
@@ -363,6 +370,13 @@ build tests/CMakeFiles/reverse_words_test.dir/main.cpp.o: CXX_COMPILER__reverse_
   OBJECT_DIR = tests/CMakeFiles/reverse_words_test.dir
   OBJECT_FILE_DIR = tests/CMakeFiles/reverse_words_test.dir
 
+build tests/CMakeFiles/reverse_words_test.dir/persistence_bugger_tests.cpp.o: CXX_COMPILER__reverse_words_test_Debug /Users/maksim/Documents/C++/Algorithms/tests/persistence_bugger_tests.cpp || cmake_object_order_depends_target_reverse_words_test
+  DEP_FILE = tests/CMakeFiles/reverse_words_test.dir/persistence_bugger_tests.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/maksim/Documents/C++/Algorithms/src/functions/include -isystem /Users/maksim/Documents/C++/Algorithms/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/maksim/Documents/C++/Algorithms/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests/CMakeFiles/reverse_words_test.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/reverse_words_test.dir
+
 build tests/CMakeFiles/reverse_words_test.dir/reverse_words_tests.cpp.o: CXX_COMPILER__reverse_words_test_Debug /Users/maksim/Documents/C++/Algorithms/tests/reverse_words_tests.cpp || cmake_object_order_depends_target_reverse_words_test
   DEP_FILE = tests/CMakeFiles/reverse_words_test.dir/reverse_words_tests.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -fcolor-diagnostics -std=gnu++14
@@ -378,7 +392,7 @@ build tests/CMakeFiles/reverse_words_test.dir/reverse_words_tests.cpp.o: CXX_COM
 #############################################
 # Link the executable tests/reverse_words_test
 
-build tests/reverse_words_test: CXX_EXECUTABLE_LINKER__reverse_words_test_Debug tests/CMakeFiles/reverse_words_test.dir/find_next_sqaure_tests.cpp.o tests/CMakeFiles/reverse_words_test.dir/highest_scoring_word_tests.cpp.o tests/CMakeFiles/reverse_words_test.dir/main.cpp.o tests/CMakeFiles/reverse_words_test.dir/reverse_words_tests.cpp.o | src/functions/libcustom_functions.a lib/libgtest_maind.a lib/libgtestd.a || lib/libgtest_maind.a lib/libgtestd.a src/functions/libcustom_functions.a
+build tests/reverse_words_test: CXX_EXECUTABLE_LINKER__reverse_words_test_Debug tests/CMakeFiles/reverse_words_test.dir/find_next_sqaure_tests.cpp.o tests/CMakeFiles/reverse_words_test.dir/highest_scoring_word_tests.cpp.o tests/CMakeFiles/reverse_words_test.dir/main.cpp.o tests/CMakeFiles/reverse_words_test.dir/persistence_bugger_tests.cpp.o tests/CMakeFiles/reverse_words_test.dir/reverse_words_tests.cpp.o | src/functions/libcustom_functions.a lib/libgtest_maind.a lib/libgtestd.a || lib/libgtest_maind.a lib/libgtestd.a src/functions/libcustom_functions.a
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
   LINK_LIBRARIES = src/functions/libcustom_functions.a  lib/libgtest_maind.a  lib/libgtestd.a
   OBJECT_DIR = tests/CMakeFiles/reverse_words_test.dir
