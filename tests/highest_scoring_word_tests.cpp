@@ -15,9 +15,9 @@ TEST(highest_scoring_word, test) {
     };
 
     for (auto &test_case : test_cases) {
-        std::string input = test_case.first;
-        std::string expected = test_case.second;
-        std::string result = custom_functions::highestScoringWord(input);
+        auto input = test_case.first;
+        auto expected = test_case.second;
+        auto result = custom_functions::highestScoringWord(input);
 
         ASSERT_EQ(expected, result);
     }

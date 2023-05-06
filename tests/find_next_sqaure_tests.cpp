@@ -16,9 +16,9 @@ TEST(find_next_square, test) {
     };
 
     for (auto &test_case : test_cases) {
-        long input = test_case.first;
-        long expected = test_case.second;
-        long result = custom_functions::find_next_square(input);
+        auto input = test_case.first;
+        auto expected = test_case.second;
+        auto result = custom_functions::find_next_square(input);
 
         ASSERT_EQ(expected, result);
     }

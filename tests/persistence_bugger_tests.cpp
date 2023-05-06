@@ -14,9 +14,9 @@ TEST(persistence_bugger, test) {
     };
 
     for (auto &test_case: test_cases) {
-        long input = test_case.first;
-        int expected = test_case.second;
-        int result = custom_functions::persistence_bugger(input);
+        auto input = test_case.first;
+        auto expected = test_case.second;
+        auto result = custom_functions::persistence_bugger(input);
 
         ASSERT_EQ(expected, result);
     }
