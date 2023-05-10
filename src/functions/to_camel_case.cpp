@@ -19,7 +19,7 @@ std::string custom_functions::to_camel_case(std::string text) {
             is_upper = true;
         } else {
             if (is_upper) {
-                result += toupper(c);
+                result += (char) toupper(c);
                 is_upper = false;
             } else {
                 result += c;
