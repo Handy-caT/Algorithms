@@ -4,3 +4,4 @@ mod search_in_rotated_sorted_array;
 mod rotate_image;
 mod atoi;
 mod validate_ip;
+mod reverse_integer;
